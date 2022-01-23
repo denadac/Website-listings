@@ -1,0 +1,1033 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet">
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet">
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
+    <title>Listin</title>
+  </head>
+  <body> 
+      <div class="banner" id="banner">
+              <div >
+              <!--Navigation bar-->
+          <div class="sticky-header mx-auto ">
+          
+            <nav id="navbar" class="navbar navbar-expand-md ">
+                <a class="navbar-brand" href="#"><img src="./img/logo.png"></a>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                  <ul class="navbar-nav ">
+                        <li class="nav-item">
+                               <a class="nav-link" href="#">Home</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="#">Listings</a>
+                          </li>
+                          <li class="nav-item">
+                              <div class="dropdown">
+                                 <a  href="#" class="nav-link dropdownbtn" data-toggle="dropdown">Pages <i class="fas fa-chevron-down"></i></a>
+                                 <div class="dropdown-menu">
+                                     <a href="#" class="dropdown-item">Elements</a>
+                                     <a href="#" class="dropdown-item">Single Listing</a>
+                                 </div>
+                      
+                              </div>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">About</a>
+                          </li>
+                          <li class="nav-item">
+                              <div class="dropdown">
+                                 <a  href="#" class="nav-link dropdownbtn" data-toggle="dropdown">Blog <i class="fas fa-chevron-down"></i></a>
+                                 <div class="dropdown-menu">
+                                     <a href="#" class="dropdown-item">Blog</a>
+                                     <a href="#" class="dropdown-item">Single-Blog</a>
+                                 </div>
+                      
+                              </div>
+                          </li>    
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                  </ul>
+               
+                </div>  
+                
+                 
+                      
+                    <button class="contact-btn justify-content-end">Sign In</button>
+                   
+              </nav>
+            </div>
+            </div>
+            <!--End of navigation bar-->
+
+            <div class=" container text-center">
+                <p>Find Nearby Attraction</p>
+                <h3>Find Nearby Attraction</h3>
+          
+            </div>
+            <div class=" form-1  mx-auto ">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 " style="margin: auto;"> 
+                        <input type="text" class="form-control rounded-0 border-0" id="place"  placeholder="What are you finding?">
+                  </div>
+                    <div class="col-lg-4 col-md-4 " style="margin: auto;">
+                        <div class="input-container">
+                            <i class="fas fa-map-marker-alt icon"></i>
+                         <input   type="text" class="form-control rounded-0 border-0 input-field" id="location" placeholder="Location"  required>
+                         
+                          
+                        </div>
+                        
+                    </div>       
+                    <div class="col-lg-2 col-md-3 ">
+                        <button type="submit" class="btn-search">Search</button>
+                    </div>                
+                </div>
+            </div>
+          <div class="container">
+              
+            <!--Second menu-->
+
+            <div class="second-menu ">
+                <nav>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link">Hotel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Food</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Shopping</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Bar & Pubs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Bar & Pubs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Places</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+          </div>
+            
+
+       
+      </div>
+
+      <!--END OF BANNER-->
+
+  
+      <div class=" container categories mx-auto">
+          <div class="col-lg-12 mx-auto text-center">
+              <p class="above-heading">Discover</p>
+              <h1 class="heading">Most Popular Categories</h1>
+
+              <div class="row">
+                  <div class="col-xl-3  col-md-6 col-lg-3" id="hoveroverlay">
+                      <div class="category card" >
+                          <div class="img-gradient ">      
+                             <img  class="mx-auto d-block" src="./img/catagory/1.png" alt="cat 1">
+                              </div>
+                
+                          <div class="bottom-left text-left ">
+                            <a href="#">Amazing Places</a> <br>
+                           <span id="hoverbg">05 listings</span>
+                           </div>
+                      </div> 
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6" id="hoveroverlay">
+                    <div class="category card" >
+                        <div class="img-gradient ">      
+                           <img  style="display: block;" src="./img/catagory/2.png" alt="cat 1">
+                            </div>
+              
+                        <div class="bottom-left text-left ">
+                          <a href="#">Amazing Places</a> <br>
+                         <span id="hoverbg">05 listings</span>
+                         </div>
+                    </div> 
+
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6" id="hoveroverlay">
+                    <div class="category card" >
+                        <div class="img-gradient ">      
+                           <img  style="display: block;" src="./img/catagory/3.png" alt="cat 1">
+                            </div>
+              
+                        <div class="bottom-left text-left ">
+                          <a href="#">Amazing Places</a> <br>
+                         <span id="hoverbg">05 listings</span>
+                         </div>
+                    </div> 
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6" id="hoveroverlay">
+                    <div class="category card" >
+                        <div class="img-gradient ">      
+                           <img  style="display: block;" src="./img/catagory/4.png" alt="cat 1">
+                            </div>
+              
+                         <div class="bottom-left text-left ">
+                          <a href="#">Amazing Places</a> <br>
+                         <span id="hoverbg">05 listings</span>
+                         </div>
+                    </div> 
+
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6" id="hoveroverlay">
+                    <div class="category card" >
+                        <div class="img-gradient ">      
+                           <img  style="display: block;" src="./img/catagory/5.png" alt="cat 1">
+                            </div>
+              
+                         <div class="bottom-left text-left ">
+                          <a href="#">Amazing Places</a> <br>
+                         <span id="hoverbg">05 listings</span>
+                         </div>
+                    </div> 
+
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6" id="hoveroverlay">
+                    <div class="category card " >
+                        <div class="img-gradient ">      
+                           <img  style="display: block;" src="./img/catagory/6.png" alt="cat 1">
+                            </div>
+              
+                         <div class="bottom-left text-left ">
+                          <a href="#">Amazing Places</a> <br>
+                         <span id="hoverbg">05 listings</span>
+                         </div>
+                    </div> 
+
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6" id="hoveroverlay">
+                    <div class="category card" >
+                        <div class="img-gradient ">      
+                           <img  style="display: block;" src="./img/catagory/7.png" alt="cat 1">
+                            </div>
+              
+                         <div class="bottom-left text-left ">
+                          <a href="#">Amazing Places</a> <br>
+                         <span id="hoverbg">05 listings</span>
+                         </div>
+                    </div> 
+
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6" id="hoveroverlay">
+                    <div class="category card " >
+                        <div class="img-gradient ">      
+                           <img  style="display: block;" src="./img/catagory/8.png" alt="cat 1">
+                            </div>
+              
+                         <div class="bottom-left text-left ">
+                          <a href="#">Amazing Places</a> <br>
+                         <span id="hoverbg">05 listings</span>
+                         </div>
+                    </div> 
+
+
+                </div>
+                      
+                </div>
+           
+                </div>
+                
+              </div>
+          </div>
+          <!--End of categories-->
+
+          
+          <!--Grid Gallery-->
+
+          <div class="container grid-gallery">
+              <div class="row">
+                  <div class="col-lg-4 col-md-5">
+                      <h1 class="heading">Explore Europe</h1>
+                  </div>
+                  <div class="col-lg-8 col-md-7">
+                    <ul class="nav nav-tabs justify-content-end">
+                        <li class="nav-item  active "><a class="nav-link" href="#grid1" data-toggle="tab" >England</a>
+                           
+                        <li class="nav-item  "><a  class="nav-link" href="#grid2" data-toggle="tab">Switzerland</a>
+                        </li>
+                        <li class="nav-item "><a class="nav-link" href="#grid3" data-toggle="tab">Italy</a></li>
+                        <li class="nav-item  "><a class="nav-link" href="#grid4" data-toggle="tab">France</a></li>
+                        <li class="nav-item  "><a class="nav-link" href="#grid5" data-toggle="tab">Germany</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <hr>
+<div class="tab-content">
+
+    <!--GRID 1-->
+              <div class="grid-1 tab-pane fade-in active" id="grid1">
+                  <div class="row">
+                     <div class="col-xl-4 col-lg-4 col-md-6">
+                         <div class="card">
+                             <div class="card-content text-left">
+                                 <div class=" card-img">
+                                    <img class="mx-auto d-block" src="./img/explorer/1.png" alt="">
+                                 </div>
+                           
+                             <div class="card-info ">
+                               
+                                <a href="#">Santamarine</a>
+                                <p>700/D, Kings road, Green lane, London</p>
+                             </div>
+                               
+                             </div>
+                         </div>
+                     </div>
+                     <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-content text-left">
+                                <div class=" card-img">
+                                   <img class="mx-auto d-block" src="./img/explorer/2.png" alt="">
+                                </div>
+                          
+                            <div class="card-info ">
+                              
+                               <a href="#">Santamarine</a>
+                               <p>700/D, Kings road, Green lane, London</p>
+                            </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-content text-left">
+                                <div class=" card-img">
+                                   <img class="mx-auto d-block" src="./img/explorer/3.png" alt="">
+                                </div>
+                          
+                            <div class="card-info ">
+                              
+                               <a href="#">Santamarine</a>
+                               <p>700/D, Kings road, Green lane, London</p>
+                            </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-content text-left">
+                                <div class=" card-img">
+                                   <img class="mx-auto d-block" src="./img/explorer/4.png" alt="">
+                                </div>
+                          
+                            <div class="card-info ">
+                              
+                               <a href="#">Santamarine</a>
+                               <p>700/D, Kings road, Green lane, London</p>
+                            </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-content text-left">
+                                <div class=" card-img">
+                                   <img class="mx-auto d-block" src="./img/explorer/5.png" alt="">
+                                </div>
+                          
+                            <div class="card-info ">
+                              
+                               <a href="#">Santamarine</a>
+                               <p>700/D, Kings road, Green lane, London</p>
+                            </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="card">
+                            <div class="card-content text-left">
+                                <div class=" card-img">
+                                   <img class="mx-auto d-block" src="./img/explorer/6.png" alt="">
+                                </div>
+                          
+                            <div class="card-info ">
+                              
+                               <a href="#">Santamarine</a>
+                               <p>700/D, Kings road, Green lane, London</p>
+                            </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+               
+
+              </div>
+                <!--END OF GRID 1-->
+
+                  <!--GRID 2-->
+              <div class="grid-2 tab-pane fade" id="grid2">
+                <div class="row">
+                   <div class="col-xl-4 col-lg-4 col-md-6">
+                       <div class="card">
+                           <div class="card-content text-left">
+                               <div class=" card-img">
+                                  <img class="mx-auto d-block" src="./img/explorer/3.png" alt="">
+                               </div>
+                         
+                           <div class="card-info ">
+                             
+                              <a href="#">Santamarine</a>
+                              <p>700/D, Kings road, Green lane, London</p>
+                           </div>
+                             
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img class="mx-auto d-block"  src="./img/explorer/2.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img class="mx-auto d-block"  src="./img/explorer/1.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img class="mx-auto d-block"  src="./img/explorer/4.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img  class="mx-auto d-block" src="./img/explorer/5.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img  class="mx-auto d-block" src="./img/explorer/6.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+              <!--END OF GRID 2-->
+
+
+                  <!--GRID 3-->
+            <div class="grid-3 tab-pane fade" id="grid3">
+                <div class="row">
+                   <div class="col-xl-4 col-lg-4 col-md-6">
+                       <div class="card">
+                           <div class="card-content text-left">
+                               <div class=" card-img">
+                                  <img  class="mx-auto d-block" src="./img/explorer/5.png" alt="">
+                               </div>
+                         
+                           <div class="card-info ">
+                             
+                              <a href="#">Santamarine</a>
+                              <p>700/D, Kings road, Green lane, London</p>
+                           </div>
+                             
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img  class="mx-auto d-block" src="./img/explorer/2.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img  class="mx-auto d-block" src="./img/explorer/3.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img  class="mx-auto d-block" src="./img/explorer/4.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img  class="mx-auto d-block" src="./img/explorer/5.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img  class="mx-auto d-block" src="./img/explorer/6.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                </div>
+             
+
+            </div>
+              <!-- END OF GRID 3-->
+
+               <!--GRID 4-->
+            <div class="grid-4 tab-pane fade" id="grid4">
+                <div class="row">
+                   <div class="col-xl-4 col-lg-4 col-md-6">
+                       <div class="card">
+                           <div class="card-content text-left">
+                               <div class=" card-img">
+                                  <img  class="mx-auto d-block" src="./img/explorer/6.png" alt="">
+                               </div>
+                         
+                           <div class="card-info ">
+                             
+                              <a href="#">Santamarine</a>
+                              <p>700/D, Kings road, Green lane, London</p>
+                           </div>
+                             
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img  class="mx-auto d-block" src="./img/explorer/2.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img  class="mx-auto d-block" src="./img/explorer/4.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img  class="mx-auto d-block" src="./img/explorer/1.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img  class="mx-auto d-block" src="./img/explorer/5.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img  class="mx-auto d-block" src="./img/explorer/6.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                </div>
+             
+
+            </div>
+              <!-- END OF GRID 4-->
+
+               <!--GRID 5-->
+            <div class="grid-5 tab-pane fade" id="grid5">
+                <div class="row">
+                   <div class="col-xl-4 col-lg-4 col-md-6">
+                       <div class="card" >
+                           <div class="card-content text-left">
+                               <div class=" card-img">
+                                  <img  class="mx-auto d-block"  src="./img/explorer/5.png" alt="">
+                               </div>
+                         
+                           <div class="card-info ">
+                             
+                              <a href="#">Santamarine</a>
+                              <p>700/D, Kings road, Green lane, London</p>
+                           </div>
+                             
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img class="mx-auto d-block"  src="./img/explorer/6.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img  class="mx-auto d-block" src="./img/explorer/2.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img  class="mx-auto d-block" src="./img/explorer/1.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img class="mx-auto d-block"  src="./img/explorer/5.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6">
+                      <div class="card">
+                          <div class="card-content text-left">
+                              <div class=" card-img">
+                                 <img  class="mx-auto d-block" src="./img/explorer/6.png" alt="">
+                              </div>
+                        
+                          <div class="card-info ">
+                            
+                             <a href="#">Santamarine</a>
+                             <p>700/D, Kings road, Green lane, London</p>
+                          </div>
+                            
+                          </div>
+                      </div>
+                  </div>
+                </div>
+             
+
+            </div>
+              <!-- END OF GRID 5-->
+
+            </div>
+          </div>
+
+          <!--End of Grid Gallery-->
+
+
+
+          <!--ADD BUSINESS-->
+            <div class="container-fluid add-bg">
+                <div class=" container text-center">
+                    
+                          <h1 class="heading">Sprayed Your Business with Us</h1>
+                    <p>Esteem spirit temper too say adieus who direct esteem. It esteems luckily or picture placing drawing
+                        apartments frequently or motionless.</p>
+                        <button class="btn-add">Add Your Business</button>
+                    </div>
+                  
+                </div>
+            </div>
+          <!--END OF ADD BUSINESS-->
+
+          <!--CAROUSEL-->
+
+          <div class="carousel-container container mt-3 text-center">
+              <p class="above-heading">Testimonials</p>
+              <h1 >What our client says</h1>
+            <div id="demo" class="carousel slide" data-ride="carousel">
+            
+              <!-- Indicators -->
+           
+              
+              <!-- The slideshow -->
+              <div class="carousel-inner  mx-auto my-3">
+              <div class="container mx-auto">
+                <div style="border: none;" class="carousel-item active  text-center">
+                  <img src="./img/svg_icon/quote.svg" >
+                
+                     <p style="padding: 30px 0;">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+
+                     <img src="./img/case/testmonial.png">
+                     <p>Client Name</p>
+                     <p class="text-muted">Business name</p>
+                
+                </div>
+                <div style="border: none;" class="carousel-item text-center">
+                  <img  src="./img/svg_icon/quote.svg"  >
+                  <p style="padding: 30px 0;">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                  <img src="./img/case/testmonial.png">
+                  <p>Client Name</p>
+                  <p class="text-muted">Business name</p>
+             
+                </div>
+                <div style="border: none;" class="carousel-item text-center">
+                  <img  src="./img/svg_icon/quote.svg" >
+                  <p style="padding: 30px 0; ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                  <img src="./img/case/testmonial.png">
+                  <p>Client Name</p>
+                  <p class="text-muted">Business name</p>
+             
+                </div>
+              </div>
+              </div>
+              <!-- Left and right controls -->
+              <a style="border: none;" class="carousel-control-prev" href="#demo" data-slide="prev">
+                <i class="fas fa-chevron-left"></i>
+              </a>
+              <a style="border: none;" class="carousel-control-next" href="#demo" data-slide="next">
+             <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+            </div>
+            
+                
+            
+          <!--END OF CAROUSEL-->
+
+
+
+          <!--FOOTER-->
+          <div class="footer container-fluid">
+              <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-3 col-md-6 text-left">
+                       <div class="footer-col-1">
+                        <img src="./img/footer_logo.png">
+                        <p>Esteem spirit temper too say adieus who
+                          direct esteem. It esteems luckily or
+                          picture placing drawing.</p>
+                          
+                          <div >
+                              <ul class="nav">
+                                  <li>
+                                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                  </li>
+                                  <li>
+                                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                </li><li>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </li>
+                              </ul>
+                       </div>
+                        
+                          </div>
+
+
+                          
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-6">
+                            
+                    <h4>Services</h4>
+                      
+                     
+                          <ul >
+                              <li>
+                                  <a href="#">SEO/SEM</a>
+                              </li>
+                              <li>
+                                <a href="#">Web design</a>
+                            </li><li>
+                                <a href="#">E-commerce</i></a>
+                            </li>
+                            <li>
+                                <a href="#">Digital marketing</a>
+                            </li>
+                          </ul>
+                    
+
+            </div>
+              <div class=" col-xl-2 col-lg-2 col-md-6">
+                            
+                   <h4>Useful links</h4>
+                  
+                 
+                      <ul >
+                          <li>
+                              <a href="#">About</a>
+                          </li>
+                          <li>
+                            <a href="#">Contact</a>
+                        </li><li>
+                            <a href="#">Blog</i></a>
+                        </li>
+                        <li>
+                            <a href="#">Support</a>
+                        </li>
+                      </ul>
+                
+
+              </div>
+              <div class="col-xl-4 col-lg-5 col-md-6">
+                            
+                <h4 class="p-left" >Subscribe</h4>
+               
+              
+                <div class=" buttonInside">
+                    <div>
+                        <input type="email" id="email2" aria-describedby="emailHelp" placeholder="Enter Your Email" required>
+                        <button type="submit" class="btn-subscribe  ">Subscribe</button>
+                    </div>
+                </div>
+                <p>Esteem spirit temper too say adieus who direct esteem esteems luckily.</p>
+           </div>
+         </div>
+             
+          </div>
+
+
+
+          <!--ENDO OF FOOTER-->
+
+    <!-- Optional JavaScript -->
+    <script>
+     //   $(document).ready(function(){
+    //      $(".tab-pane").click(function(){
+    //      $(this).tab('show');
+    //    });
+    //    });
+
+
+//////////////////////
+/////////////////////
+     //    $('.nav-tabs a').click(function (e) {
+      //      var tab = $(this);
+   //    if(tab.parent('li').hasClass('active')){
+    //    window.setTimeout(function(){
+     //       $(".tab-pane").removeClass('active');
+     //       tab.parent('li').removeClass('active');
+     //   },1);
+   //       }
+//         });
+
+///////////////////////
+//////////////////////
+
+$('.nav-link.active').on('click', function(){
+//This targets only li elements having active class
+    $(this).toggleClass('active');
+    $('#' + this.hash.substr(1).toLowerCase()).toggleClass('active');
+    return false;
+});
+
+
+//////////
+var myNav = document.getElementById('navbar');
+window.onscroll = function () { 
+    "use strict";
+    if (document.body.scrollTop >= 200 ) {
+        myNav.classList.add("nav-transparent");
+        myNav.classList.remove("nav-colored");
+    } 
+    else {
+        myNav.classList.add("nav-transparent");
+        myNav.classList.remove("nav-colored");
+    }
+};
+        </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6475d67767.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   
+
+</body>
+</html>
